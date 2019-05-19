@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false"
+        android:drawable="@drawable/gradient_list">
+        <shape android:shape="oval">
+            <solid android:color="#8F55DB"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true"
+        android:drawable="@drawable/gradient_list">
+        <shape android:shape="oval">
+            <solid android:color="#0FA1DB"/>
+        </shape>
+    </item>
+</selector>

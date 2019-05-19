@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/rest_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Apps you are going to set restrictions"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/rest_apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rest_desc"
+        android:layout_marginTop="8dp"
+        android:background="#D3D3D3"
+        android:minHeight="48dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rest_time_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest_apps"
+        android:layout_marginTop="16dp"
+        android:text="Time to make restriction" />
+
+    <EditText
+        android:id="@+id/rest_time"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest_time_desc"
+        android:layout_marginTop="16dp"
+        android:hint="hour"
+        />
+    <EditText
+        android:id="@+id/rest_time2"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest_time_desc"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/rest_time"
+        android:hint="min" />
+
+    <LinearLayout
+        android:id="@+id/lin_days_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest_time"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/day_1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+            android:text="MO" />
+
+        <Button
+            android:id="@+id/day_2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+            android:text="TUE" />
+
+        <Button
+            android:id="@+id/day_3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+            android:text="WED" />
+
+        <Button
+            android:id="@+id/day_4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+
+            android:text="THU" />
+
+        <Button
+            android:id="@+id/day_5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+
+            android:text="FRI" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_days_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_days_1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/day_6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+
+            android:text="SA" />
+
+        <Button
+            android:id="@+id/day_7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_but"
+            android:text="SUN" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_days_2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:background="#0000"
+        android:text="SAVE"
+        android:textSize="16dp" />
+
+</RelativeLayout>

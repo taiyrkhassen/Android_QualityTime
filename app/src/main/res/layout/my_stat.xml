@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ttw">
+
+     <FrameLayout
+         android:orientation="vertical"
+         android:id="@+id/my_stat2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/relat2">
+
+             <Button
+
+                 android:layout_centerInParent="true"
+                 android:id="@+id/button3"
+                 android:layout_width="200dp"
+                 android:layout_height="200dp"
+                 android:background="@drawable/gradient_1"
+                 android:text="7h : 23min"
+                 android:textAllCaps="false"
+                 />
+
+             <com.github.mikephil.charting.charts.PieChart
+                 android:layout_marginTop="40dp"
+                 android:layout_centerInParent="true"
+                 android:visibility="invisible"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/pie_chart"
+
+                 />
+         </RelativeLayout>
+
+     </FrameLayout>
+
+
+
+</RelativeLayout>

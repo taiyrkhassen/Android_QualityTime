@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_list_time"
+        android:title="My Restriction"
+        android:icon="@drawable/ic_restriction"
+        
+        />
+    <item
+        android:id="@+id/my_time_applications"
+        android:title="My Time"
+        android:icon="@drawable/ic_apps"
+        />
+
+    <item
+        android:id="@+id/my_stat"
+        android:title="My Stat"
+        android:icon="@drawable/ic_stat"
+        />
+
+
+</menu>
